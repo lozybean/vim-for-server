@@ -10,6 +10,12 @@
 " Desc: simple vim config for server, without any plugins.
 "==========================================
 
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'gmarik/vundle'
+Bundle 'easymotion/vim-easymotion'
+
 " leader
 let mapleader = ','
 let g:mapleader = ','
