@@ -10,11 +10,14 @@
 " Desc: simple vim config for server, without any plugins.
 "==========================================
 
+" plugins
 filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'easymotion/vim-easymotion'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'terryma/vim-multiple-cursors'
 
 " leader
 let mapleader = ','
@@ -213,6 +216,7 @@ nnoremap <leader>w :w<CR>
 
 " select all
 map <Leader>sa ggVG"
+nnoremap <leader>v <C-v>
 
 " remap U to <C-r> for easier redo
 nnoremap U <C-r>
