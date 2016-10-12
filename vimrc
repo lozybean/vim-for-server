@@ -64,7 +64,7 @@ set scrolloff=7                 " keep 3 lines when scrolling
 " show
 set ruler                       " show the current row and column
 set number                      " show line numbers
-set nowrap
+" set nowrap
 set showcmd                     " display incomplete commands
 set showmode                    " display current modes
 set showmatch                   " jump to matches when entering parentheses
@@ -79,7 +79,7 @@ set smartcase                   " no ignorecase if Uppercase char present
 
 
 " tab
-set expandtab                   " expand tabs to spaces
+"set expandtab                   " expand tabs to spaces
 set smarttab
 set shiftround
 
