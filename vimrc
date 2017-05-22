@@ -14,10 +14,10 @@
 filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
-Bundle 'gmarik/vundle'
-Bundle 'easymotion/vim-easymotion'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'terryma/vim-multiple-cursors'
+Plugin 'gmarik/vundle'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'terryma/vim-multiple-cursors'
 
 " leader
 let mapleader = ','
