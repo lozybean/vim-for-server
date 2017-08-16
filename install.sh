@@ -5,3 +5,4 @@ if [ ! -d ~/.vim/bundle/vundle ];then
 fi
 mv ~/.vimrc ~/.vimrc_bak
 ln -s $PWD/vimrc ~/.vimrc
+vim +BundleInstall +qall
