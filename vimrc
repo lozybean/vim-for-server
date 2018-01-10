@@ -18,6 +18,7 @@ Plugin 'gmarik/vundle'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'manabuishii/vim-cwl'
 
 " leader
 let mapleader = ','
